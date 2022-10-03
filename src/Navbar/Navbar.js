@@ -9,7 +9,7 @@ const Navbar = () => {
     { id: 2, name: "Products", path: "/products" },
     { id: 3, name: "Orders", path: "/orders" },
     { id: 4, name: "Contract", path: "/contract" },
-    { id: 5, name: "About", path: "/about" },
+    { id: 5, name: "Abouto", path: "/about" },
   ];
   return (
     <nav className="w-full bg-red-300">
