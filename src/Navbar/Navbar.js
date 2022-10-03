@@ -13,7 +13,10 @@ const Navbar = () => {
   ];
   return (
     <nav className="w-full bg-red-300">
-      <div onClick={() => setOpen(!open)} className=" bg-red-300 h-6 w-6 md:hidden ">
+      <div
+        onClick={() => setOpen(!open)}
+        className=" bg-red-300 h-6 w-6 md:hidden "
+      >
         {open ? <XMarkIcon /> : <Bars3Icon />}
       </div>
       <ul
